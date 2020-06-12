@@ -33,8 +33,8 @@ class smoothanimationNodes(bpy.types.Operator):
         description="The critical frequency or frequencies",
         min=0.0,
         max=2,
-        step=0.001,
-        default=0.02,
+        step=0.01,
+        default=0.2,
         unit='LENGTH',
         precision=1
     )
